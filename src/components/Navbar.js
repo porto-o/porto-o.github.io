@@ -92,7 +92,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://medium.com/@ismaelporto"
+                href="https://portonotes.notion.site/"
                 target="_blank"
                 rel="noreferrer"
               >
