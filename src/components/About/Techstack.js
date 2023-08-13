@@ -16,6 +16,7 @@ import {
   SiScikitlearn,
   SiPandas
 } from "react-icons/si";
+import { FaDatabase } from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -45,7 +46,7 @@ function Techstack() {
         <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <FaDatabase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
