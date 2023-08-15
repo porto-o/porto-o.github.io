@@ -12,6 +12,7 @@ import todo from "../../Assets/Projects/todo.png";
 import pacmen from "../../Assets/Projects/pacmen.png";
 import eyes from "../../Assets/Projects/eyes.png";
 import github from "../../Assets/Projects/github.png";
+import badbank from "../../Assets/Projects/badbank.png";
 
 function Projects() {
   return (
@@ -25,6 +26,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={badbank}
+              isBlog={false}
+              title="Bad Bank"
+              description="A Front End web application that simulates a bank personal portal, it allow users to create accounts, deposit and withdraw money, as well as view their transaction history and switching between accounts. Developed using MERN stack and other tools such as react context api, react hook form, react router dom, etc. The application was deployed using Vercel."
+              ghLink="https://github.com/porto-o/Bad-Bank"
+              demoLink="https://bad-bank-beckmuhkl-porto-o.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={crimes}
