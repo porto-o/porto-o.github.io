@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import {AiFillMediumSquare} from "react-icons/ai";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -93,11 +94,21 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://portonotes.notion.site/"
+                href="https://blog.ismaelporto.com/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blog
+                <ImBlog style={{ marginBottom: "2px" }} /> Notes
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://medium.com/@ismaelporto"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <AiFillMediumSquare style={{ marginBottom: "2px" }} /> Medium
               </Nav.Link>
             </Nav.Item>
 
