@@ -32,9 +32,9 @@ function Projects() {
               imgPath={badbank}
               isBlog={false}
               title="Bad Bank"
-              description="A Front End web application that simulates a bank personal portal, it allow users to create accounts, deposit and withdraw money, as well as view their transaction history and switching between accounts. Developed using MERN stack and other tools such as react context api, react hook form, react router dom, etc. The application was deployed using Vercel."
+              description="A Full-Stack bank web application. It allows users to create an account using email or google service, deposit, withdraw, view and filter transaction history and transfer money between registered accounts. The project was developed using ReactJS, NodeJS, ExpressJS, and MongoDB. All the technologies were deployed in different cloud services such as Netlify, Render, and MongoDB Atlas."
               ghLink="https://github.com/porto-o/Bad-Bank"
-              demoLink="https://bad-bank-beckmuhkl-porto-o.vercel.app/"
+              demoLink="https://portobank.netlify.app/"
             />
           </Col>
 
